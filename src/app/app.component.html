@@ -1,0 +1,44 @@
+
+
+
+<nav class="navbar navbar-expand-sm bg-secondary navbar-dark">
+
+    
+    <ul class="navbar-nav mr-auto">
+        
+        <li class="nav-item">
+            <a routerLink ="agences" routerLinkActive="active" class="nav-link">List of agences</a>
+        </li>
+        <li class="nav-item">
+            <a routerLink ="clients" routerLinkActive="active" class="nav-link">List of clients</a>
+        </li>
+        <li class="nav-item">
+            <a routerLink ="create-client" routerLinkActive="active" class="nav-link">create-client </a>
+        </li>
+
+        <li class="nav-item">
+            <a routerLink ="create-agence" routerLinkActive="active" class="nav-link">Create agence </a>
+        </li>
+    </ul>
+
+</nav>
+
+
+
+<h1 class="text-center">{{title}}</h1>
+<div class="container">
+    
+    <router-outlet></router-outlet>
+</div>
+<footer class="footer">
+    <div class="container">
+        <div>
+            <span>all rigth reserved</span>
+        </div>
+        
+        <div>
+            <span>Author: Ndeye Maty Diaw</span>
+        </div>
+    </div>
+
+</footer>

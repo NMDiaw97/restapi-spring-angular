@@ -1,0 +1,19 @@
+
+<div class="col-md-6 offset-md-3">
+    <form (ngSubmit) = "onSubmit()">
+        <div class="form-group">
+            <label for="">Solde</label>
+            <input type="text" class="form-control" id="solde" [(ngModel)]="compte.solde" name="solde">
+        </div>
+    
+        <div class="form-group">
+            <label for="">decouvert</label>
+            <input type="text" class="form-control" id="decouvert" [(ngModel)]="compte.decouvert" name="decouvert">
+        </div>
+    
+    
+        <button class="btn btn-success" type="submit">Submit</button>
+    
+    </form>
+    </div>
+    

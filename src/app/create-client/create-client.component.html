@@ -1,0 +1,22 @@
+
+<div class="col-md-6 offset-md-3">
+<form (ngSubmit) = "onSubmit()">
+    <div class="form-group">
+        <label for="">Firstname</label>
+        <input type="text" class="form-control" id="fName" [(ngModel)]="client.prenom" name="Fname">
+    </div>
+
+    <div class="form-group">
+        <label for="">Lastname</label>
+        <input type="text" class="form-control" id="name" [(ngModel)]="client.nom" name="name">
+    </div>
+
+    <div class="form-group">
+        <label for="">DayOfBirth_</label>
+        <input type="text" class="form-control" id="birth" [(ngModel)]="client.date_naissance" name="birth">
+    </div>
+
+    <button class="btn btn-success" type="submit">Submit</button>
+
+</form>
+</div>
